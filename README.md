@@ -1,16 +1,75 @@
-# React + Vite
+🧩 Task Management Learning (React + LocalStorage)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based task management system featuring Admin and Employee dashboards, secure login, and dynamic task tracking — all with data persistence using localStorage.
+🚀 Features
 
-Currently, two official plugins are available:
+✅ Login System – Separate login for Admin and Employees
+✅ Admin Dashboard – Assign, update, and track employee tasks
+✅ Employee Dashboard – View and manage assigned tasks dynamically
+✅ Task Status Tracking – Categorized as New, Active, Completed, or Failed
+✅ Context API – Global state management for Auth and Task handling
+✅ LocalStorage Integration – All data persists even after page reloads
+✅ Responsive Dark UI – Built with Tailwind CSS for a modern, clean look
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Tech Stack
+Technology	Description
+⚛️ React	Frontend library
+🎨 Tailwind CSS	Styling and responsive design
+🧠 Context API	State management
+💾 localStorage	Client-side data persistence
+📂 Folder Structure
+src/
+├── components/
+│   ├── Login/
+│   ├── AdminDashboard/
+│   ├── EmployeeDashboard/
+│   ├── Tasks/
+├── context/
+│   ├── AuthProvider.js
+│   ├── TaskProvider.js
+├── data/
+│   ├── employeeData.js
+├── App.js
+└── index.js
 
-## React Compiler
+⚙️ Installation & Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Follow these steps to run the project locally:
 
-## Expanding the ESLint configuration
+Clone the repository
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+git clone https://github.com/yourusername/employee-task-manager.git
+
+
+Navigate to project directory
+
+cd employee-task-manager
+
+
+Install dependencies
+
+npm install
+
+
+Run the development server
+
+npm start
+
+
+Open your browser at http://localhost:3000
+
+🧠 Learning Highlights
+
+📘 This project helped reinforce key React concepts such as:
+
+useState and useContext hooks
+
+Props drilling and state lifting
+
+Context API for global state
+
+localStorage data handling
+
+Conditional rendering for dynamic buttons
+
+Component-based architecture
