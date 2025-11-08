@@ -27,5 +27,3 @@ A **React-based task management system** featuring **Admin and Employee dashboar
 
 ---
 
-## 📂 Folder Structure
-
